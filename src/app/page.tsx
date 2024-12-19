@@ -277,7 +277,7 @@ const WhyChooseUsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <p className="text-[#DCBE9E] mb-4 text-sm">
-            <span className="text-[#BE7F51]">&lt; &lt; &lt;</span> SERVICES WE'RE OFFERING <span className="text-[#BE7F51]">&gt; &gt; &gt;</span>
+            <span className="text-[#BE7F51]">&lt; &lt; &lt;</span> SERVICES WE&apos;RE OFFERING <span className="text-[#BE7F51]">&gt; &gt; &gt;</span>
           </p>
           <h2 className="text-3xl md:text-4xl text-white font-bold mb-6">
             Why Choose Us
@@ -293,7 +293,7 @@ const WhyChooseUsSection = () => {
               <br />of Experience
             </h3>
             <p className="text-sm text-gray-400 leading-relaxed text-center lg:text-start">
-              "With 10+ years of experience, SkyHit Media excels in SEO, digital marketing, and web development services."
+              With 10+ years of experience, SkyHit Media excels in SEO, digital marketing, and web development services.
             </p>
           </div>
 
@@ -433,7 +433,7 @@ const TestimonialsSection = () => {
       name: 'XXXX',
       position: 'CEO of xxxxxx',
       image: '/path-to-image-2.jpg',
-      quote: `Skyhit Digital transformed our my pet clinic's website and services! their professionalism and creativity significantly enchanced our online presence. Highly recommend them!`
+      quote: `Skyhit Digital transformed our my pet clinic&apos;s website and services! their professionalism and creativity significantly enchanced our online presence. Highly recommend them!`
     }
     // Add more testimonials as needed
   ];
@@ -463,7 +463,7 @@ const TestimonialsSection = () => {
           </div>
         </div>
         <blockquote className="text-gray-700 relative pl-6">
-          <span className="absolute left-0 top-0 text-4xl text-[#D4B57C] font-serif">"</span>
+          <span className="absolute left-0 top-0 text-4xl text-[#D4B57C] font-serif">&quot;</span>
           <p className="mt-2">{testimonial.quote}</p>
         </blockquote>
       </div>
@@ -484,7 +484,7 @@ const TestimonialsSection = () => {
             &lt; &lt; &lt; OUR TESTIMONIALS &gt; &gt; &gt;
           </p>
           <h2 className="text-4xl md:text-5xl text-[#6D6D6D] font-bold">
-            What They're Saying?
+            What They&apos;re Saying?
           </h2>
         </div>
 

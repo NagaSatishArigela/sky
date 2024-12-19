@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import React, { useState } from "react";
-import { FiSearch, FiMenu, FiX, FiPhone } from "react-icons/fi";
+import { FiMenu, FiX, FiPhone } from "react-icons/fi";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,13 +20,13 @@ export default function Header() {
       <div className="mx-auto flex justify-between items-center py-6 px-6">
         {/* Logo */}
         <div className="text-2xl font-bold text-white">
-          <a href="/" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <img
               src="https://skyhitmedia.com/images/header-skyhit-logo-desktop.png"
               alt="Skyhit Media Logo"
               className="h-16"
             />
-          </a>
+          </Link>
         </div>
 
         {/* Hamburger Menu for Mobile */}

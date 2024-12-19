@@ -60,7 +60,7 @@ export default function AboutSection() {
   
               {/* Subheading */}
               <p className="text-xl text-orange-600 mb-8">
-                We're Committed to Deliver High Quality Projects
+                We&apos;re Committed to Deliver High Quality Projects
               </p>
   
               {/* CTA Button */}
